@@ -1,0 +1,121 @@
+# ===== 操作系统 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.swp
+*.swo
+*~
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.code-workspace
+.history/
+*.sublime-project
+*.sublime-workspace
+
+# ===== 环境变量 & 密钥（重要：切勿上传）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.*
+*token*.txt
+*credential*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+site-packages/
+
+# ===== Node.js / 前端 =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+coverage/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.vite/
+dist/
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+.mvn/
+
+# ===== C / C++ / Go =====
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ===== R / MATLAB =====
+.Rhistory
+.RData
+.Rproj.user/
+*.asv
+
+# ===== 数据 & 大文件（作业数据与结果不入库）=====
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.log
+
+# ===== 临时文件 =====
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ===== Jupyter / 实验输出 =====
+.ipynb_checkpoints
+*.ipynb_checkpoints
+profile_default/
